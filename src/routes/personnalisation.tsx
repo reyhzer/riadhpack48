@@ -43,7 +43,7 @@ function PersonnalisationPage() {
   return (
     <section className="site-container py-12">
       <header className="mb-8">
-        <p className="uppercase tracking-[0.16em] text-xs text-emerald-700 font-bold">Production sur mesure</p>
+        <p className="uppercase tracking-[0.16em] text-xs text-zinc-900 font-bold">Production sur mesure</p>
         <h1 className="section-title text-4xl md:text-6xl font-bold">Personnalisation</h1>
         <p className="mt-3 text-slate-700 max-w-4xl">
           Riadh Pack realise des sacs sur cahier des charges pour les industriels et acteurs agroalimentaires qui
@@ -56,7 +56,7 @@ function PersonnalisationPage() {
           const Icon = option.icon
           return (
             <article key={option.title} className="info-card p-6">
-              <Icon size={28} className="text-emerald-700 mb-3" />
+              <Icon size={28} className="text-zinc-900 mb-3" />
               <h2 className="text-3xl font-bold mb-2">{option.title}</h2>
               <p className="text-sm text-slate-700">{option.text}</p>
             </article>
@@ -82,7 +82,7 @@ function PersonnalisationPage() {
       <div className="cta-band p-8 md:p-10 flex flex-col lg:flex-row gap-4 lg:items-center lg:justify-between">
         <div>
           <h2 className="text-3xl md:text-5xl font-bold text-white">Un projet de sac personnalise ?</h2>
-          <p className="text-emerald-100 mt-2">Les equipes techniques accompagnent vos besoins de la maquette a la livraison.</p>
+          <p className="text-zinc-200 mt-2">Les equipes techniques accompagnent vos besoins de la maquette a la livraison.</p>
         </div>
         <Link to="/contact" className="btn btn-secondary w-fit">
           Demander un devis

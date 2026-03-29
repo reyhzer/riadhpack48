@@ -50,7 +50,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           <div className="site-container flex items-center justify-between gap-4 py-4">
             <Link to="/" className="brand-mark" aria-label="Riadh Pack accueil">
               <span className="text-xl font-black leading-tight">Riadh Pack</span>
-              <span className="text-xs uppercase tracking-[0.16em] text-emerald-300/80">
+              <span className="text-xs uppercase tracking-[0.16em] text-zinc-300/80">
                 Usine de Tissage & Fabrication de Sacs
               </span>
             </Link>
@@ -78,7 +78,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 
         <main>{children}</main>
 
-        <footer className="border-t border-emerald-900/40 bg-slate-950/80 mt-16">
+        <footer className="border-t border-white/25 bg-slate-950/80 mt-16">
           <div className="site-container py-10 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="font-bold text-lg">Riadh Pack</p>
