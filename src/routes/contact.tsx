@@ -54,7 +54,7 @@ function ContactPage() {
   return (
     <section className="site-container py-12">
       <header className="mb-8">
-        <p className="uppercase tracking-[0.16em] text-xs text-emerald-700 font-bold">Contact commercial</p>
+        <p className="uppercase tracking-[0.16em] text-xs text-zinc-900 font-bold">Contact commercial</p>
         <h1 className="section-title text-4xl md:text-6xl font-bold">Demander un devis</h1>
       </header>
 
@@ -63,21 +63,21 @@ function ContactPage() {
           <h2 className="text-3xl font-bold mb-5">Coordonnees</h2>
           <ul className="space-y-4 text-slate-700">
             <li className="flex items-start gap-3">
-              <Phone size={20} className="text-emerald-700 mt-1" />
+              <Phone size={20} className="text-zinc-900 mt-1" />
               <div>
                 <p className="font-bold">Telephone</p>
                 <p>0560 04 25 26</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <Mail size={20} className="text-emerald-700 mt-1" />
+              <Mail size={20} className="text-zinc-900 mt-1" />
               <div>
                 <p className="font-bold">Email</p>
                 <p>riadh48000@hotmail.com</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <MapPin size={20} className="text-emerald-700 mt-1" />
+              <MapPin size={20} className="text-zinc-900 mt-1" />
               <div>
                 <p className="font-bold">Adresse</p>
                 <p>Z.I BELHACEL, Relizane</p>
@@ -157,7 +157,7 @@ function ContactPage() {
             <button type="submit" className="btn btn-primary" disabled={status === 'loading'}>
               {status === 'loading' ? 'Envoi...' : 'Envoyer la demande'}
             </button>
-            {status === 'success' ? <p className="text-sm text-emerald-700">Demande envoyee avec succes.</p> : null}
+            {status === 'success' ? <p className="text-sm text-zinc-900">Demande envoyee avec succes.</p> : null}
             {status === 'error' ? <p className="text-sm text-red-700">Une erreur est survenue. Merci de reessayer.</p> : null}
           </div>
         </form>

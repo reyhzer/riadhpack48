@@ -45,7 +45,7 @@ function HomePage() {
     <div>
       <section className="hero site-container">
         <div className="hero-panel p-7 md:p-12 lg:p-16">
-          <p className="uppercase tracking-[0.18em] text-emerald-300 text-xs md:text-sm">
+          <p className="uppercase tracking-[0.18em] text-zinc-300 text-xs md:text-sm">
             Riadh Pack - Relizane, Algerie
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mt-4 text-white">
@@ -90,7 +90,7 @@ function HomePage() {
             const Icon = item.icon
             return (
               <article key={item.title} className="stat-card p-6">
-                <Icon className="text-emerald-700 mb-4" size={28} />
+                <Icon className="text-zinc-900 mb-4" size={28} />
                 <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                 <p className="text-slate-700 text-sm">{item.text}</p>
               </article>
@@ -103,7 +103,7 @@ function HomePage() {
         <div className="cta-band p-8 md:p-12 grid gap-6 lg:grid-cols-[1.4fr_1fr] lg:items-center">
           <div>
             <h2 className="text-3xl md:text-5xl font-bold text-white">Partenaire fiable pour vos besoins en sacs tisses</h2>
-            <p className="mt-3 text-emerald-100 max-w-3xl">
+            <p className="mt-3 text-zinc-200 max-w-3xl">
               Du prototype a la production en serie, chaque commande beneficie d\'un accompagnement technique et d\'un
               suivi qualite.
             </p>

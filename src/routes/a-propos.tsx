@@ -42,7 +42,7 @@ function AboutPage() {
   return (
     <section className="site-container py-12">
       <header className="mb-8">
-        <p className="uppercase tracking-[0.16em] text-xs text-emerald-700 font-bold">A propos de Riadh Pack</p>
+        <p className="uppercase tracking-[0.16em] text-xs text-zinc-900 font-bold">A propos de Riadh Pack</p>
         <h1 className="section-title text-4xl md:text-6xl font-bold">Usine de tissage & fabrication</h1>
       </header>
 
@@ -70,7 +70,7 @@ function AboutPage() {
           const Icon = point.icon
           return (
             <article key={point.title} className="info-card p-6">
-              <Icon size={30} className="text-emerald-700 mb-3" />
+              <Icon size={30} className="text-zinc-900 mb-3" />
               <h2 className="text-3xl font-bold mb-2">{point.title}</h2>
               <p className="text-sm text-slate-700">{point.text}</p>
             </article>

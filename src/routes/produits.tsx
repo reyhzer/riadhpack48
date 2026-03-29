@@ -45,7 +45,7 @@ function ProduitsPage() {
   return (
     <section className="site-container py-12">
       <header className="mb-8">
-        <p className="uppercase tracking-[0.16em] text-xs text-emerald-700 font-bold">Catalogue professionnel</p>
+        <p className="uppercase tracking-[0.16em] text-xs text-zinc-900 font-bold">Catalogue professionnel</p>
         <h1 className="section-title text-4xl md:text-6xl font-bold">Nos Produits</h1>
         <p className="mt-3 text-slate-700 max-w-4xl">
           Riadh Pack fabrique des sacs tisses en polypropylene concus pour des usages industriels, agricoles et
@@ -61,7 +61,7 @@ function ProduitsPage() {
               <img src={product.image} alt={product.name} loading="lazy" />
               <div className="p-5 flex flex-col gap-3 h-full">
                 <div className="flex items-center gap-3">
-                  <span className="inline-flex items-center justify-center rounded-full bg-emerald-100 text-emerald-700 w-10 h-10">
+                  <span className="inline-flex items-center justify-center rounded-full bg-zinc-100 text-zinc-900 w-10 h-10">
                     <Icon size={20} />
                   </span>
                   <h2 className="text-2xl font-bold leading-tight">{product.name}</h2>
