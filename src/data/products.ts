@@ -14,7 +14,7 @@ const products: Product[] = [
     name: 'Sacs tisses en polypropylene',
     icon: 'package',
     image:
-      'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
+      'https://i.postimg.cc/28Ks6H48/pp-sacs.jpg',
     shortDescription:
       'Solution robuste pour le conditionnement et le transport de charges seches en environnement industriel.',
     useCases: 'Granules, matieres premieres, poudres, transport logistique en palette.',
