@@ -59,7 +59,7 @@ function AboutPage() {
           </p>
         </div>
         <img
-          src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=1400&q=80"
+          src="https://i.postimg.cc/x1z9SkXk/image-(5).jpg"
           alt="Atelier de fabrication textile industriel"
           className="rounded-2xl"
         />
