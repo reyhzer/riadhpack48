@@ -76,7 +76,7 @@ function HomePage() {
             </p>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1400&q=80"
+            src="/logo_riadhpack.png?auto=format&fit=crop&w=1400&q=80"
             alt="Ligne industrielle de fabrication"
             className="rounded-2xl shadow-2xl"
           />
