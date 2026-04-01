@@ -26,7 +26,7 @@ const products: Product[] = [
     name: 'Sacs agricoles',
     icon: 'wheat',
     image:
-      'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=80',
+      'sac_agrico.png',
     shortDescription:
       'Conçus pour proteger les recoltes et faciliter la manutention dans la chaine agricole.',
     useCases: 'Cereales, semences, aliments betail, stockage saisonnier.',
