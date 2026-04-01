@@ -22,11 +22,11 @@ const products: Product[] = [
       'Formats, grammages, couleurs et impression jusqu\'a 4 couleurs selon cahier des charges.',
   },
   {
-    id: 'sacs-agricoles',
+    id: 'sacs-agricoles', 
     name: 'Sacs agricoles',
     icon: 'wheat',
     image:
-      'sac_agrico.png',
+      src="/sac_agrico.png?auto=format&fit=crop&w=1400&q=80",
     shortDescription:
       'Conçus pour proteger les recoltes et faciliter la manutention dans la chaine agricole.',
     useCases: 'Cereales, semences, aliments betail, stockage saisonnier.',
